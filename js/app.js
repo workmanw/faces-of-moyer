@@ -12,8 +12,12 @@ App.IndexController = Ember.Controller.extend({
 	imageUrl: null,
 
 	pickImg: function(list) {
-		var randIdx = Math.floor(Math.random() * list.length);
-		this.set('imageUrl', list[randIdx]);
+		var currentImageUrl = this.get('imageUrl');
+		var extractedList = list.filter(function(imageUrl) { return imageUrl !== currentImageUrl; });
+		if(extractedList.length > 0) {
+			var randIdx = Math.floor(Math.random() * extractedList.length);
+			this.set('imageUrl', extractedList[randIdx]);
+		}
 	},
 
 	actions: {
