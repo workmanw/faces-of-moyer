@@ -6,7 +6,7 @@ App.Router.map(function() {
 
 var goodList = [ 'assets/good-1.jpg', 'assets/good-2.jpg', 'assets/good-3.jpg' ];
 var badList = [ 'assets/bad-1.jpg', 'assets/bad-2.jpg' ];
-var weirdList = [ 'assets/whacky-1.jpg' ];
+var weirdList = [ 'assets/whacky-1.jpg', 'assets/whacky-2.gif' ];
 
 App.IndexController = Ember.Controller.extend({
 	imageUrl: null,
