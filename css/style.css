@@ -1,0 +1,46 @@
+/* Put your CSS here */
+.ember-application {
+    margin: 20px;
+}
+
+.banner {
+	margin-bottom: 10px;
+}
+
+button {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+
+button:hover {
+	color: #fff;
+	background-color: #3071a9;
+	border-color: #285e8e;
+}
+
+label {
+	padding-right: 10px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #959595;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
